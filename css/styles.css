@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
   overflow-x: hidden;
-  font-family: cursive;
+  font-family: cursive, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
@@ -15,6 +16,20 @@ background-blend-mode: darken;
 h1, h2, h3, h4, h5{
   overflow-y: hidden;
 }
+header{
+  color: white;
+}
+
+header>.jumbotron{
+  background: rgba(0,0,0,0.6) url("../images/bg-coffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  min-height: 300px;
+  border-radius: 0px 0px 15px 15px;
+}
 header>.jumbotron>.row h1{
   overflow-y: hidden;
   font-size: 4rem;
@@ -23,13 +38,20 @@ header>.jumbotron>.row h1{
 #meals h2{
   font-size: 50px;
 }
-
+.col-md-4>.card{
+  box-shadow: 0px 0px 5px 2px;
+  border: 1px solid black;
+}
+#witbord{
+  background-color: #343a40 !important;
+  border: none;
+  color: white;
+}
 i{
   color: white;
   font-size: 50px;
 }
 footer{
-  background-color: rgb(94, 94, 94);
   margin-bottom: 20px;
   color: white;
 }
