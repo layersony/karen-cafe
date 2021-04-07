@@ -2,11 +2,11 @@
 
 *{
   overflow-x: hidden;
-  font-family: cursive, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
-background: rgba(0,0,0,0.5) url("../images/background-main.jpg");
+background: rgba(0,0,0,0.6) url("../images/background-main.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
@@ -19,9 +19,13 @@ h1, h2, h3, h4, h5{
 header{
   color: white;
 }
+.nav-items{
+  background-color: red;
+  color: blue;
+}
 
 header>.jumbotron{
-  background: rgba(0,0,0,0.6) url("../images/bg-coffee.jpg");
+  background: rgba(0,0,0,0.5) url("../images/bg-coffee.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -34,6 +38,7 @@ header>.jumbotron{
 header>.jumbotron>.row h1{
   overflow-y: hidden;
   font-size: 4rem;
+  font-family: cursive, Ubuntu;
 }
 input[type=email]{
   width: 250px;
